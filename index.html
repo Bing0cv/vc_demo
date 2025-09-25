@@ -32,12 +32,12 @@
         <p><sup>1</sup>Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, <br>
 		Northwestern Polytechnical University, Xi’an, China<br>
         <sup>2</sup> Geely Automobile Research Institute (Ningbo) Company Ltd, Ningbo, China</p>
-        <!-- <p>
-            <a href="https://openreview.net/forum?id=ExuBFYtCQU">ICLR 2025</a> |
-	    <a href="https://arxiv.org/pdf/2409.00750">Arxiv</a> |
-            <a href="https://huggingface.co/amphion/MaskGCT">Hugging Face</a> |
-            <a href="https://github.com/open-mmlab/Amphion/blob/main/models/tts/maskgct">GitHub Repo</a>
-        </p> -->
+        <p>
+            <!-- <a href="https://openreview.net/forum?id=ExuBFYtCQU">ICLR 2025</a> |
+	    	<a href="https://arxiv.org/pdf/2409.00750">Arxiv</a> |
+            <a href="https://huggingface.co/amphion/MaskGCT">Hugging Face</a> | -->
+            <a href="https://github.com/ASLP-lab/MeanVC">GitHub Repo</a>
+        </p>
 	</div>
 	<p style="text-align: justify;"><b>Abstract</b> Zero-shot voice conversion (VC) aims to transfer timbre from a source speaker to any unseen target speaker while preserving linguistic content. Growing application scenarios demand models with streaming inference capabilities. This has created a pressing need for models that are simultaneously fast, lightweight, and high-fidelity. However, existing streaming methods typically rely on either autoregressive (AR) or non-autoregressive (NAR) frameworks, which either require large parameter sizes to achieve strong performance or struggle to generalize to unseen speakers. In this study, we propose MeanVC, a lightweight and streaming zero-shot VC approach. MeanVC introduces a diffusion transformer with a chunk-wise autoregressive denoising strategy, combining the strengths of both AR and NAR paradigms for efficient streaming processing. By introducing mean flows, MeanVC regresses the average velocity field during training, enabling zero-shot VC with superior speech quality and speaker similarity in a single sampling step by directly mapping from the start to the endpoint of the flow trajectory. Additionally, we incorporate diffusion adversarial post-training to mitigate over-smoothing and further enhance speech quality. Experimental results demonstrate that MeanVC significantly outperforms existing zero-shot streaming VC systems, achieving superior conversion quality with higher efficiency and significantly fewer parameters.
 	</p>
