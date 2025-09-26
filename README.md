@@ -1,6 +1,6 @@
 # MeanVC: Lightweight and Streaming Zero-Shot Voice Conversion via Mean Flows
 
-📑 [Paper](coming-soon) | 🎵 [Demo](coming-soon)
+📑 Paper(coming-soon) | 🎵 [Demo](https://bing0cv.github.io/vc_demo/)
 
 MeanVC is a lightweight and streaming zero-shot voice conversion system that enables real-time timbre transfer from any source speaker to any target speaker while preserving linguistic content. The system introduces a diffusion transformer with chunk-wise autoregressive denoising strategy and mean flows for efficient single-step inference.
 
