@@ -15,7 +15,7 @@ MeanVC is a lightweight and streaming zero-shot voice conversion system that ena
 
 ## 📋 TODO
 
-- [ ] 🌐 **Demo website**
+- [x] 🌐 **Demo website**
 - [ ] 📝 **Paper release**
 - [ ] 🤗 **HuggingFace model release**
 - [ ] 🔓 **Release inference code**
@@ -29,3 +29,5 @@ MeanVC is a lightweight and streaming zero-shot voice conversion system that ena
 *Code and models will be released soon*
 
 </div>
+
+
